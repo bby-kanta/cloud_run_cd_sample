@@ -29,7 +29,7 @@ jobs:
 
       - name: Cloud Run Jobs Deploy
         run: |
-          gcloud run jobs deploy your_job_name \
+          gcloud run jobs deploy your-job-name \
             --source ./cloudrun \
             --tasks 1 \
             --max-retries 5 \
